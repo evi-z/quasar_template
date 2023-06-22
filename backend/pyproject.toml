@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "quasar-template"
+version = "0.1.0"
+description = ""
+authors = ["fckgm <stepanow.ig@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "quasar_template"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
